@@ -1,0 +1,48 @@
+Task 1A
+
+1) First read and convert the given binary number to decimal
+2) Check against the constraints for valid entries
+3) Output -1 if entered binary is 0 or negative
+4) Find the pairs of number which have the smallest difference and whose average is equal to entered number (i.e the successor and predecessor)
+5) Check if the final two numbers have same number of digits (in binary) as the original binary number entered (leading 0's ar allowed in the new numbers)
+6) If step 5 is possible print the numbers in ascending in binary or else output -1
+
+Task 1B
+
+1) Take input and check against constraints for valid entries
+2) If entered length is 1 output 0, Else go to step 3
+3) Use a loop until the length of the string becomes 0
+  3.1) Check if first half of string is same as second half; If yes use either half of the string for next iteration
+  3.2) Reduce length of the string by 2
+  3.3) Increase count by 1
+4) Output the number 
+
+Task 1C
+
+1) Take input of strings and add them to an list (or array) 
+2) Check against the constraints for valid entries
+3) Loop through till number of days
+  3.1) Check if there was a workshop on that day; If yes go to step 3.1.1
+    3.1.1) Check if team had pizza; If No, go to4
+      3.1.1.1) If yes, it was a successful workshop
+      3.1.1.2) If no, it was not a successful workshop
+4) Multiply the increase amount by number of successful workshops and the decrease amount by number of unsuccessful workshops 
+5) Check the net (increase - decrease) 
+  5.1) If positive, output "promoted"
+  5.2) If negative, output "demoted"
+  5.3) If 0, output "no change"
+  
+Task 1D
+
+1) Take input of the sizes for pattern and add them to list (or array) for ease of reading
+2) Loop for all the sizes given in the input list
+  2.1) Loop from 0 to half of the current size
+    2.1.1) If first line output all stars; Else go to 2.1.2
+    2.1.2) Ouptut (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
+           (Here n is the current row)
+  2.2) Loop from half of the current size to 0 
+    2.2.1) If first line output all stars; Else go to 2.1.2
+    2.2.2) Output (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
+           (Here n is the current row)
+  
+  
