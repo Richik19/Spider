@@ -1,5 +1,6 @@
-#INPUTS
+#Richik Ghosh 110120092
 
+#INPUTS
 x = int(input())
 l=[]
 for i in range(x):
