@@ -1,6 +1,6 @@
 #Richik Ghosh 110120092
-#IMPORTS
 
+#IMPORTS
 import math
 
 #INPUTS
