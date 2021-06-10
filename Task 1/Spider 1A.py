@@ -1,6 +1,6 @@
-#Binary to Decimal Function
 #Richik Ghosh 110120092
 
+#Binary to Decimal Function
 def btd(b):
     return int(b,2)
 
