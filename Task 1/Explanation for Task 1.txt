@@ -45,4 +45,6 @@ Task 1D
     2.2.2) Output (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
            (Here n is the current row)
   
-  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+|NOTE: In the Hackerrank code my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name to ensure no plagiarism|
+-------------------------------------------------------------------------------------------------------------------------------------------------------
