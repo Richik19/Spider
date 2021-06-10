@@ -1,5 +1,6 @@
-#INPUTS
+#Richik Ghosh 110120092
 
+#INPUTS
 a = input()
 b = input()
 c = input()
