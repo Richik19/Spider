@@ -1,4 +1,6 @@
 #Binary to Decimal Function
+#Richik Ghosh 110120092
+
 def btd(b):
     return int(b,2)
 
