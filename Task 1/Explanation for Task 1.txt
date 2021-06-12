@@ -4,18 +4,19 @@ Task 1A
 2) Check against the constraints for valid entries
 3) Output -1 if entered binary is 0 or negative
 4) Find the pairs of number which have the smallest difference and whose average is equal to entered number (i.e the successor and predecessor)
-5) Check if the final two numbers have same number of digits (in binary) as the original binary number entered (leading 0's ar allowed in the new numbers)
+5) Check if the final two numbers have same number of digits (in binary) as the original binary number entered 
 6) If step 5 is possible print the numbers in ascending in binary or else output -1
 
 Task 1B
 
-1) Take input and check against constraints for valid entries
-2) If entered length is 1 output 0, Else go to step 3
-3) Use a loop until the length of the string becomes 0
-  3.1) Check if first half of string is same as second half; If yes use either half of the string for next iteration
-  3.2) Reduce length of the string by 2
-  3.3) Increase count by 1
-4) Output the number 
+1) Take input number and string
+2) Check against constraints for valid entries
+3) If entered length is 1 output 0, Else go to step 3
+4) Use a loop until the length of the string becomes 0
+  4.1) Check if first half of string is same as second half; If yes use either half of the string for next iteration
+  4.2) Reduce length of the string by 2
+  4.3) Increase count by 1
+5) Output the count 
 
 Task 1C
 
@@ -34,17 +35,17 @@ Task 1C
   
 Task 1D
 
-1) Take input of the sizes for pattern and add them to list (or array) for ease of reading
-2) Loop for all the sizes given in the input list
-  2.1) Loop from 0 to half of the current size
-    2.1.1) If first line output all stars; Else go to 2.1.2
-    2.1.2) Ouptut (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
+1) Take input of the sizes for pattern and add them to list (or array) for ease of reading 
+2) Check for constraints for valid inputs
+3) Loop for all the sizes given in the input list
+  3.1) Loop from 0 to half of the current size
+    3.1.1) If first line output all stars; Else go to 3.1.2
+    3.1.2) Ouptut (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
            (Here n is the current row)
-  2.2) Loop from half of the current size to 0 
-    2.2.1) If first line output all stars; Else go to 2.1.2
-    2.2.2) Output (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
+  3.2) Loop from half of the current size to 0 
+    3.2.1) If first line output all stars; Else go to 3.2.2
+    3.2.2) Output (current size - nth odd number)/2 stars + nth odd number of white spaces + (current size - nth odd number)/2 stars 
            (Here n is the current row)
   
--------------------------------------------------------------------------------------------------------------------------------------------------------
-|NOTE: In the Hackerrank code my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name to ensure no plagiarism|
--------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|NOTE: In the Hackerrank code submissions my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name at the beginning for authenticity|    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
