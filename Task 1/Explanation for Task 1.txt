@@ -36,7 +36,7 @@ Task 1C
 Task 1D
 
 1) Take input of the sizes for pattern and add them to list (or array) for ease of reading 
-2) Check for constraints for valid inputs
+2) Check for constraints for valid entries
 3) Loop for all the sizes given in the input list
   3.1) Loop from 0 to half of the current size
     3.1.1) If first line output all stars; Else go to 3.1.2
