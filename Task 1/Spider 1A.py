@@ -1,13 +1,5 @@
 #Richik Ghosh 110120092
 
-#Binary to Decimal Function
-def btd(b):
-    return int(b,2)
-
-#Decimal to Binary Function
-def dtb(d):
-    return bin(d)
-    
 #INPUTS
 
 x = int(input())
@@ -25,14 +17,14 @@ if x != len(y):
 
 #MAIN LOGIC
 
-dn = btd(y)
+dn = int(y, 2)
 if dn <= 0:
     print(-1)
 else:
     hn = dn + 1
     ln = dn - 1
-    a = dtb(hn)
-    b = dtb(ln)
+    a = bin(hn)
+    b = bin(ln)
     nb = ""
     if len(a) != x + 2 or len(b) != x + 2:
         print(-1)
