@@ -34,13 +34,11 @@ else:
     a = dtb(hn)
     b = dtb(ln)
     nb = ""
-    if len(a) != x + 2:
+    if len(a) != x + 2 or len(b) != x + 2:
         print(-1)
     else:
-        if len(b) == x + 2:
-            print(b[2:] + " " + a[2:])
-        else:
-            print(-1)
+        print(b[2:] + " " + a[2:])
+     
 
     
 
