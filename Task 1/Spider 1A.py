@@ -40,9 +40,7 @@ else:
         if len(b) == x + 2:
             print(b[2:] + " " + a[2:])
         else:
-            diff = x + 2 - len(b)
-            nb = "0" * diff + b[2:]
-            print(nb + " " + a[2:])
+            print(-1)
 
     
 
