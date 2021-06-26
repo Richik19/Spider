@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 #INPUTS
 n = int(input())
 b = input()
