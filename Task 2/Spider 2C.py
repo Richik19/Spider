@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 #Fibnocci function
 def fib(n):
     a, b = 0, 1
