@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 #INPUTS
 t = int(input())
 l=[]
