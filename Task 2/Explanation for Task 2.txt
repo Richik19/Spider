@@ -1,1 +1,55 @@
-Hi
+Task 2A
+
+1) First read the initial number of test cases followed by the bracket strings 
+2) Check against the constraints for valid entries
+3) Use a loop to iterate through the strings 
+  3.1) If the object is an opening bracket add +1 to the sum
+  3.2) If the object is a closing bracket add -1 to the sum 
+  3.3) If at any point the sum becomes lesser than 0 break the loop 
+  3.4) If the sum at any point becomes 0, count takes the value of the index of the bracket where sum became 0
+4) Output the count
+
+Task 2B
+
+1) Take the input of length of the array, number of additions to do and the input string for 
+2) Check against constraints for valid entries
+3) Use a loop to create the basic array of numbers with i+1 value at index i
+4) Use a loop to iterate through the addition string
+  4.1) make a dummy array of same length as the basic array full of 0s 
+  4.2) take the indices mentioned in the addition string 
+    4.2.1) Use a loop to add the corresponding value to correct indices to the dummy array
+  4.3) Use a loop to add the elements of the dummy array to the basic array
+5) Output the max value of the modified basic array 
+
+Task 2C
+
+1) Take input of numbers 
+2) Check against the constraints for valid entries
+3) Create an array called bad steps with the positions as values
+4) Create an array called steps with all the bad steps along with the starting step 0 and final step 'n'
+5) Create a nested array called good steps having smaller arrays which consist of the continuous stretches of good steps
+6) Declare a variable count and initialise its value to 1
+7) Check in the array of bad steps if any two consecutive numbers has a difference of 1 (i.e check if they are consecutive)
+  7.1) If yes, output 0 and exit the program
+  7.2) If no, go to step 8
+8) Iterate through the nested array called goodsteps
+  8.1) If the smaller array has a length greater than or equal to 2
+    8.1.1) Apply Fibonacci function to the length of this array and multiply it to count
+    8.2.2) Modulo count by 1000000007 to make it faster
+9) Output count
+  
+Task 2D
+
+1) Take input of length of array A and then take input of array B 
+2) Check against the constraints for valid entries
+3) Declare an empty array for the final answer (used as an attempt to get the array A mentioned int he question)
+4) Iterate from the end to the beginning of array B
+  4.1) If it is the first element being added to the final array
+    4.1.1) Add that element to final array
+  4.2) Otherwise 
+    4.2.1) If the element is lessed than the next element 
+      4.2.1.1) Add that element to final array
+      4.2.1.2) Else add the next element to final array 
+5) Declare a variable sum and iterate through final array and add up all the elements
+6) Add the element at index 0 of B to the sum (this is actually the unknown first element of array A since we had iterated from the back of the array)
+7) Output the sum
