@@ -53,3 +53,7 @@ Task 2D
 5) Declare a variable sum and iterate through final array and add up all the elements
 6) Add the element at index 0 of B to the sum (this is actually the unknown first element of array A since we had iterated from the back of the array)
 7) Output the sum
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|NOTE: In the Hackerrank code submissions my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name at the beginning for authenticity|
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
