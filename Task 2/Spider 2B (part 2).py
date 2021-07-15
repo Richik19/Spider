@@ -1,4 +1,4 @@
-#110120092 Richik Ghosh
+#Richik Ghosh 110120092
 
 #INPUTS
 n = int(input())
