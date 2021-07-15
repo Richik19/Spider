@@ -1,3 +1,5 @@
+#110120092 Richik Ghosh
+
 #INPUTS
 n = int(input())
 q = int(input())
