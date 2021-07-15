@@ -9,16 +9,27 @@ Task 2A
   3.4) If the sum at any point becomes 0, count takes the value of the index of the bracket where sum became 0
 4) Output the count
 
-Task 2B
+Task 2B (Part 2) 
 
-1) Take the input of length of the array, number of additions to do and the input string for 
+1) Take the input of length of the array, number of additions to do and the input string for each operation
 2) Check against constraints for valid entries
 3) Use a loop to create the basic array of numbers with i+1 value at index i
-4) Use a loop to iterate through the addition string
-  4.1) make a dummy array of same length as the basic array full of 0s 
-  4.2) take the indices mentioned in the addition string 
-    4.2.1) Use a loop to add the corresponding value to correct indices to the dummy array
-  4.3) Use a loop to add the elements of the dummy array to the basic array
+4) Use another loop to create a prefix sum array which is initialized to all 0 elements
+5) Iterate for the number of operations
+  5.1) add the required value at (starting index-1) 
+  5.2) subtract required value at (ending index) if the ending index is within range
+6) Iterate through prefix sum array and find the final result of all the operations
+7) Iterate through original basic array and add the corresponding elements of the prefix sum array
+5) Output the max value of the modified basic array 
+
+Task 2B
+
+1) Take the input of length of the array, number of additions to do and the input string for each operation
+2) Check against constraints for valid entries
+3) Use a loop to create the basic array of numbers with i+1 value at index i
+4) Iterate for the number of operations
+  4.1) Iterate from the (starting index-1) to the ending index provided in a particular operation
+    4.1.1) Add the corresponding value of the operation to the basic array to the previous mentioned indices
 5) Output the max value of the modified basic array 
 
 Task 2C
