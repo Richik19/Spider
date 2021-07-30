@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 #FUNCTIONS
 def prime(n):
    prm = [True for i in range(n+1)]
