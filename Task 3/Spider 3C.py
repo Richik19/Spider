@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 def findPartition(arr, n, maxsum):
     dp = [[False for x in range(maxsum+1)] for y in range(n)]
     for i in range(n):
