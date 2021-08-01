@@ -1,3 +1,5 @@
+#Richik Ghosh 110120092
+
 #FUNCTIONS
 def WW(mid, l, k):
     s1 = 0
