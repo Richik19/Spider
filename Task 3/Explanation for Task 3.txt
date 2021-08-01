@@ -22,9 +22,9 @@ Task 3C
 
 1) Take the input of final length, initial length and the array of strength of bricks
 2) Check against constraints for valid entries
-3) If final length is 1:
+3) If final length is 1
   3.1) Output the sum of the array
-4) If the final length is 2:
+4) If the final length is 2
   4.1) Use Dynamic programming and use a 2D list, where the index of final 'True' is the max possible strength
   4.2) reverse the list and find the index of the first occurance of 'True'
   4.3) Subtract this index from the (sum of original array)//2
@@ -32,6 +32,27 @@ Task 3C
 
 Task 3D
 
+1) Take the input of final length, initial length and the array of strength of bricks
+2) Check against constraints for valid entries
+3) If final length is 1
+  3.1) Output the sum of the array
+4) Use binary search method and declare left as max of array, right as total sum of array
+5) Declare function "WW" to check the number of possible subarrays made
+  5.1) Initialise variables sum and sub_array_count to 0
+  5.2) Parse through the array with iterator 
+    5.2.1) If the element is greater than mid return False
+    5.2.2) If the (element + sum) <= mid 
+      5.2.2.1) Add element to sum 
+    5.2.3) Else incremement the su_ array_count by 1
+   5.3) return boolean value of (k >= sub_array_count)
+6) If final length is not 1
+  6.1) Use while loop till left < right
+  6.2) Mid is average of left and right
+  6.3) If function "WW" gives True
+    6.3.1) Mid takes the value of right
+  6.4) Else
+    6.4.1) Mid takes the value of (left + 1)
+  6.5) Ouput the integral value of left
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |NOTE: In the Hackerrank code submissions my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name at the beginning for authenticity|
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
