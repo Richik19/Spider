@@ -43,6 +43,7 @@ for i in range(m):
     for j in range(2):
         k[j] = int(k[j]) - 1
     f += [k]
+
 #CONSTRAINTS
 if n < 2 or n > 8 :
     exit()
