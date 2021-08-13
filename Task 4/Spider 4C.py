@@ -37,6 +37,12 @@ y = input()
 l = y.split()
 for i in range(len(l)):
     l[i] = int(l[i])
+
+#CONSTRAINTS
+if n < 1 or n > 10**5:
+    exit()
+if k < 0 or k > 10**2:
+    exit()
     
 #MAIN CODE
 print(CancerTiles(l, n, k))
