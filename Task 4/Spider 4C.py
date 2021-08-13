@@ -1,3 +1,4 @@
+#Richik Ghosh 110120092
 #FUNCTIONS
 def CancerTiles(arr, n, k):
     fw = [0 for i in range(n)]
