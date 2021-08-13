@@ -1,3 +1,4 @@
+#Richik Ghosh 110120092
 #FUNCTIONS
 from collections import defaultdict
  
