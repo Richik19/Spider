@@ -1,0 +1,28 @@
+Task 4A
+
+1) First take the integers input
+2) Check against the constraints for valid entries
+3) Use a loop to iterate through the string form of the integer and add to array
+4) Use a loop to reduce the node value by 1 for convenienve of indexing 
+5) Check if all the nodes given are present
+  5.1) If not, then output 0
+6) Use a Depth First Search Algorithm to go to each node and go deeper first into the node to find the root node
+  6.1) If the entire path is complete path of all the nodes then incrememnt count by 1
+  6.2) Else recursively call the function again until it reaches all the nodes
+7) Output the count
+
+Task 4C
+
+1) Take the  initial integer input and the array of tiles
+2) Check against constraints for valid entries
+3) Use a loop to make a forward array which will contain the maximum current sum in the forward direction using Kadane's algorithm
+4) Use a loop to make a backward array which will contain the maximum current sum in the backward direction using Kadane's algorithm
+5) Initialise the final answer as maximum sum up until now
+6) Use a nested loop 
+  6.1) Skip the required elements and keep checking if that value is the maximum 
+    6.1.1) Output the final value of maximum
+  6.1) Incase all values are negative
+    6.2.1) Output maximum of the list
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|NOTE: In the Hackerrank code submissions my name is not specified in the submitted code, but on the GitHub codes I have mentioned my name at the beginning for authenticity|
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
