@@ -37,5 +37,7 @@ y = input()
 l = y.split()
 for i in range(len(l)):
     l[i] = int(l[i])
+    
+#MAIN CODE
 print(CancerTiles(l, n, k))
  
